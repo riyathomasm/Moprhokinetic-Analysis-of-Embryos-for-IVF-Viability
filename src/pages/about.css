@@ -1,0 +1,348 @@
+.about-wrapper {
+  padding-top: 64px;
+}
+
+/* HERO */
+.about-hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px 60px;
+}
+
+.about-badge {
+  display: inline-block;
+  padding: 5px 13px;
+  background: #eef2ff;
+  color: var(--indigo-lt);
+  border-radius: 100px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.about-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(28px, 3.5vw, 46px);
+  color: var(--navy);
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.about-title-accent {
+  color: var(--indigo-lt);
+}
+
+.about-lead {
+  font-size: 16px;
+  color: var(--slate);
+  line-height: 1.7;
+  max-width: 680px;
+  margin-bottom: 24px;
+}
+
+.about-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--slate-lt);
+  flex-wrap: wrap;
+}
+
+.about-meta-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--border);
+}
+
+/* SECTIONS */
+.about-section {
+  padding: 72px 40px;
+  border-top: 1px solid var(--border);
+}
+
+.about-section--alt {
+  background: var(--white);
+}
+
+.about-section-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-section-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--indigo-lt);
+  margin-bottom: 10px;
+}
+
+.about-section-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 28px;
+  color: var(--navy);
+  margin-bottom: 36px;
+}
+
+/* PROSE */
+.about-prose {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 760px;
+}
+
+.about-prose p {
+  font-size: 15px;
+  color: var(--slate);
+  line-height: 1.75;
+}
+
+/* MODELS */
+.about-models {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0;
+  align-items: center;
+}
+
+.about-model-card {
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 28px;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about-model-num {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--indigo-lt);
+}
+
+.about-model-num--teal { color: var(--teal); }
+
+.about-model-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--navy-mid);
+}
+
+.about-model-arch {
+  display: inline-block;
+  padding: 4px 12px;
+  background: #eef2ff;
+  color: var(--indigo-lt);
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'DM Sans', monospace;
+  align-self: flex-start;
+}
+
+.about-model-arch--teal {
+  background: #f0fdfa;
+  color: var(--teal);
+}
+
+.about-model-desc {
+  font-size: 14px;
+  color: var(--slate);
+  line-height: 1.65;
+}
+
+.about-model-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.about-model-tags span {
+  padding: 3px 10px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--slate);
+  font-weight: 500;
+}
+
+.about-model-connector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 0 24px;
+}
+
+.about-connector-line {
+  width: 1.5px;
+  height: 40px;
+  background: var(--border);
+}
+
+.about-connector-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--slate-lt);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  white-space: nowrap;
+}
+
+/* PHASES */
+.about-phases-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 12px;
+}
+
+.about-phase-item {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.about-phase-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--indigo-lt);
+  font-family: 'DM Serif Display', serif;
+}
+
+.about-phase-time {
+  font-size: 11px;
+  color: var(--slate-lt);
+  font-weight: 500;
+}
+
+.about-phase-desc {
+  font-size: 11px;
+  color: var(--slate);
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
+/* DATASETS */
+.about-datasets {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.about-dataset-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-dataset-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  color: var(--navy-mid);
+}
+
+.about-dataset-sub {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--slate-lt);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.about-dataset-card p {
+  font-size: 14px;
+  color: var(--slate);
+  line-height: 1.6;
+}
+
+.about-dataset-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.about-dataset-stats div {
+  font-size: 13px;
+  color: var(--slate);
+  display: flex;
+  gap: 8px;
+}
+
+.about-dataset-stats strong {
+  color: var(--navy-mid);
+  min-width: 72px;
+  font-weight: 600;
+}
+
+/* KEYWORDS */
+.about-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.about-keyword {
+  padding: 7px 16px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  font-size: 13px;
+  color: var(--slate);
+  font-weight: 500;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.about-keyword:hover {
+  border-color: var(--indigo-lt);
+  color: var(--indigo-lt);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about-models {
+    grid-template-columns: 1fr;
+  }
+  .about-model-connector {
+    flex-direction: row;
+    padding: 12px 0;
+  }
+  .about-connector-line {
+    width: 40px;
+    height: 1.5px;
+  }
+  .about-connector-label {
+    writing-mode: horizontal-tb;
+    transform: none;
+  }
+  .about-phases-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .about-datasets {
+    grid-template-columns: 1fr;
+  }
+}
