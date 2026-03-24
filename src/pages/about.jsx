@@ -17,11 +17,11 @@ function About() {
           assisted reproductive technology.
         </p>
         <div className="about-meta">
-          <span>SRM Institute of Science and Technology</span>
+          <span>EIVF</span>
           <span className="about-meta-dot" />
-          <span>Dept. of Computing Technologies</span>
+          <span>MORPHO-KINETIC</span>
           <span className="about-meta-dot" />
-          <span>Kattankalathur, Chennai</span>
+          <span>RMT</span>
         </div>
       </section>
 
