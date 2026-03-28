@@ -106,8 +106,8 @@ function Home() {
       </section>
 
       <footer className="footer">
-        <p>EmbryoVision — SRM Institute of Science and Technology</p>
-        <p>Dept. of Computing Technologies</p>
+        <p>EmbryoVision </p>
+        <p>© 2026 All rights reserved.</p>
       </footer>
     </div>
   );

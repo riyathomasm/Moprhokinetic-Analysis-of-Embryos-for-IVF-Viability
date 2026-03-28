@@ -77,7 +77,7 @@ function Analysis() {
     try {
       const form = new FormData();
       form.append("image", imageFile);
-      const res = await fetch("http://localhost:8001/api/inference", {
+      const res = await fetch("https://moprhokinetic-analysis-of-embryos-for.onrender.com", {
         method: "POST", body: form
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
