@@ -86,7 +86,7 @@ function Morph() {
     try {
       const form = new FormData();
       form.append('image', image);
-      const res = await fetch('https://moprhokinetic-analysis-of-embryos-for.onrender.com', {
+      const res = await fetch('https://moprhokinetic-analysis-of-embryos-for.onrender.com/api/morph-audit', {
         method: 'POST', body: form
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
