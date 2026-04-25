@@ -17,7 +17,7 @@ model.eval()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173",    "https://moprhokinetic-analysis-of-embryos-for-iv.vercel.app"
+    allow_origins=["http://localhost:5173",    "https://moprhokinetic-analysis-of-embryos-f.vercel.app"
 ],
     allow_credentials=True,
     allow_methods=["*"],
