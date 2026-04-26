@@ -2,16 +2,6 @@
 
 A multi-stage spatio-temporal AI system that bridges static morphological grading and morphokinetic time-lapse analysis for embryo viability assessment in assisted reproductive technology.
 
-## Live Demo
-
-[https://moprhokinetic-analysis-of-embryos-f.vercel.app](https://moprhokinetic-analysis-of-embryos-f.vercel.app)
-
-## Models
-
-| Model | Architecture | Task |
-|-------|-------------|------|
-| Spatial | EfficientNet-B0 | Binary viability classification from static images |
-| Temporal | EfficientNet-B0 + GRU | 14-phase morphokinetic classification from time-lapse sequences |
 
 ## Features
 
