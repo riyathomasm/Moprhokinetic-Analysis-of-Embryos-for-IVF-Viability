@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./PasswordGate.css";
+import "./Passwordgate.css";
 
 const PASSWORD = "redzero_m3";
 

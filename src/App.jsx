@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Analysis from "./pages/Analysis";
 import Morph from "./pages/Morph";
 import About from "./pages/About";
-import PasswordGate from "./components/PasswordGate";
+import PasswordGate from "./components/Passwordgate";
 import "./App.css";
 
 function Home() {
