@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Analysis from "./pages/Analysis";
 import Morph from "./pages/Morph";
 import About from "./pages/About";
+import PasswordGate from "./components/PasswordGate";
 import "./App.css";
 
 function Home() {
@@ -106,8 +107,8 @@ function Home() {
       </section>
 
       <footer className="footer">
-        <p>EmbryoVision </p>
-        <p>© 2026 All rights reserved.</p>
+        <p>EmbryoVision — SRM Institute of Science and Technology</p>
+        <p>Dept. of Computing Technologies</p>
       </footer>
     </div>
   );
@@ -119,8 +120,12 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/analyse" element={<Analysis />} />
-        <Route path="/morph" element={<Morph />} />
+        <Route path="/analyse" element={
+          <PasswordGate><Analysis /></PasswordGate>
+        } />
+        <Route path="/morph" element={
+          <PasswordGate><Morph /></PasswordGate>
+        } />
         <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
